@@ -1,0 +1,209 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Completico</title>
+        <link rel="stylesheet" href="src/css/completico.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/vendor/font-awesome.css">
+        <link rel="stylesheet" href="src/css/vendor/animate.min.css">
+    </head>
+    <body>
+        <div class="c-header absolute full-width">
+            <div class="content-holder">
+                <div class="logo float-left">
+                    <img src="src/images/logo.png">
+                </div>
+                <div class="c-menu float-right">
+                    <ul>
+                        <li class="float-left"><a href="#">Home</a></li>
+                        <li class="float-left"><a href="#about">About</a>
+                            <ul class="c-dropdown-menu absolute">
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="float-left"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hero hero-div">
+            <div class="half-width centralize">
+                <h1>Hello World</h1>
+                <p>I am <span id="swap"></span></p>
+                <a hre="#"><i class="fa fa-arrow-down animated slideInDown"></i></a>
+            </div>
+        </div>
+        <div id="completico-body">
+            <div class="content">
+                <div class="qualities-sect centralize">
+                    <div class="section-title full-width centralize">
+                        <h3>Qualities</h3>
+                    </div>
+                    <div class="qualities grid-4x float-left">
+                        <img src="src/images/flaticons/Calendar.png">
+                        <h4>Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    </div>
+                    <div class="qualities grid-4x float-left">
+                        <img src="src/images/flaticons/Folder-Heart.png">
+                        <h4>Elegant</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    </div>
+                    <div class="qualities grid-4x float-left">
+                        <img src="src/images/flaticons/Polaroid-Socialmatic.png">
+                        <h4>Creative</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    </div>
+                    <div class="qualities grid-4x float-left">
+                        <img src="src/images/flaticons/Space-Rocket.png">
+                        <h4>Free</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                    </div>
+                </div>
+                <div id="about" class="story-sect">
+                    <div class="story-sect-content">
+                        <div class="centralize">
+                            <h4>About us</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-sect centralize">
+                    <div class="section-title">
+                        <h3>The Team</h3>
+                    </div>
+                    <div class="team-sect-content grid-4x float-left">
+                        <div class="team-member">
+                            <img src="src/images/team-members/1.jpg">
+                        </div>
+                        <div class="team-member-details">
+                            <h5>Henry Meyers</h5>
+                            <h4>CEO</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                        </div>
+                    </div>
+                    <div class="team-sect-content grid-4x float-left">
+                        <div class="team-member">
+                            <img src="src/images/team-members/1.jpg">
+                        </div>
+                        <div class="team-member-details">
+                            <h5>Anna Kendrick</h5>
+                            <h4>Project Manager</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                        </div>
+                    </div>
+                    <div class="team-sect-content grid-4x float-left">
+                        <div class="team-member">
+                            <img src="src/images/team-members/1.jpg">
+                        </div>
+                        <div class="team-member-details">
+                            <h5>Bill Purplehead</h5>
+                            <h4>Designer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                        </div>
+                    </div>
+                    <div class="team-sect-content grid-4x float-left">
+                        <div class="team-member">
+                            <img src="src/images/team-members/1.jpg">
+                        </div>
+                        <div class="team-member-details">
+                            <h5>Caroline Sanders</h5>
+                            <h4>Developer</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-sect">
+                    <div class="event-sect-content centralize">
+                        <h4>Something special is coming</h4>
+                        <div class="timer centralize">
+                            <div class="float-left grid-4x">
+                                <p class="time" id="days">0</p>
+                                <p>Days</p>
+                            </div>
+                            <div class="float-left grid-4x">
+                                <p class="time" id="hours">0</p>
+                                <p>Hours</p>
+                            </div>
+                            <div class="float-left grid-4x">
+                                <p class="time" id="minutes">0</p>
+                                <p>Minutes</p>
+                            </div>
+                            <div class="float-left grid-4x">
+                                <p class="time" id="seconds">0</p>
+                                <p>Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-sect-seperator"></div>
+                <div class="video-sect centralize">
+                    <!--<video autoplay="disabled" src="src/"></video>-->
+                    <div class="video">
+                        <a href="#"><i class="fa fa-play fa-4x"></i></a>
+                    </div>
+                </div>
+                <div class="sponsors centralize">
+                    <div class="grid-4x float-left">
+                        <img src="src/images/sponsors/rangostudios.png">
+                    </div>
+                    <div class="grid-4x float-left">
+                        <img src="src/images/sponsors/rangostudios.png">
+                    </div>
+                    <div class="grid-4x float-left">
+                        <img src="src/images/sponsors/rangostudios.png">
+                    </div>
+                    <div class="grid-4x float-left">
+                        <img src="src/images/sponsors/rangostudios.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="footer-1">
+                <div class="footer-sect">
+                    <div class="footer-sect-content grid-4x float-left">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sect-content grid-4x float-left">
+                        <h4>Connect</h4>
+                        <a href="https://www.instagram.com/rangostudios" title="Follow us on Instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://www.facebook.com/rangostudios" title="Like our Facebook page" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="https://plus.google.com/108507871145132603827" title="+1 us on Google Plus" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        <a href="https://www.twitter.com/rangostudios" title="Follow us on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </div>
+                    <div class="footer-sect-content grid-4x float-left">
+                        <h4>Customer care</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-"></i>+234-123-456-789</a></li>
+                            <li><a href="#"><i class="fa fa-"></i>info@domain.com</a></li>
+                            <li><a href=""><i class="fa fa-"></i>Block 10, No-where street<br>London</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-sect-content grid-4x float-left">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to our newsletter</p>
+                        <form action="#">
+                            <input class="c-input" type="email" placeholder="johndoe@example.com">
+                            <input class="c-button" type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-2">
+                <p class="creator">Crafted with <i class="fa fa-heart"></i> in Nigeria by <a href="https://www.twitter.com/Daniel_The_Geek">Daniel Omoniyi</a></p>
+            </div>
+        </div>
+        <!-- Javascript -->
+        <script src="src/js/vendor/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="src/js/vendor/lightbox.min.js" type="text/javascript"></script>
+        <script src="src/js/vendor/typed.js" type="text/javascript"></script>
+        <script src="src/js/script.js" type="text/javascript"></script>
+    </body>
+</html>

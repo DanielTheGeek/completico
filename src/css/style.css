@@ -1,0 +1,208 @@
+/*
+    Font
+*/
+@font-face {
+	font-family: 'Futura Bk BT';
+	src: url('../font/futura.eot');
+	src: url('../font/futura.eot?#iefix') format('embedded-opentype'),
+		url('../font/futura.woff') format('woff'),
+		url('../font/futura.ttf') format('truetype');
+} 
+body {
+    font-family: Futura Bk BT;
+}
+/*** Cursor blink effect ***/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.content-holder {
+    padding: 20px 100px;
+}
+.c-menu ul li {
+    list-style-type: none;
+}
+.c-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.hero-div {
+    height: 400px;
+    background-image: url('../images/hero.jpg');
+}
+.hero-div > div {
+    padding: 10% 0;
+    color: #fff;
+}
+.hero-div > div > h1 {
+    font-size: 70px;
+}
+.hero-div > div > p {
+    font-size: 30px;
+}
+.hero-div > div > a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero-div > div > a > i {
+    margin: 80px 0 0 0;
+	-webkit-animation-iteration-count: 1000;
+	animation-iteration-count: 1000;
+	-webkit-animation-delay: 0;
+	animation-delay: 0;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+.qualities-sect {
+    padding: 50px 0;
+    overflow: hidden;
+}
+.section-title {
+    padding: 0 0 50px 0;
+}
+.section-title h3 {
+    font-size: 30px;
+}
+.qualities img {
+    height: 64px;
+    width: 64px;
+}
+.qualities h4, .footer-sect-content h4 {
+    font-weight: 100;
+    margin: 10px 0;
+}
+.story-sect {
+    background-image: url(../images/story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.story-sect > .story-sect-content {
+    overflow: hidden;
+    padding: 50px;
+    color: #fff;
+}
+.story-sect > .story-sect-content > div > h4 {
+    font-size: 40px;
+    margin: 0 0 15px 0;
+}
+.video-sect {
+    background-image: url(../images/story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-sect > .video {
+    padding: 100px;
+}
+.video-sect > .video > a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.team-sect {
+    padding: 80px 0;
+    overflow: hidden;
+    background-image: url(../images/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.team-sect > .team-sect-content > .team-member {
+    padding: 0 0 10px 0;
+}
+.team-sect > .team-sect-content > .team-member > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.team-sect > .team-sect-content > .team-member-details {
+    
+}
+.team-sect > .team-sect-content > .team-member-details > h4 {
+    font-weight: unset;
+    font-size: 20px;
+}
+.team-sect > .team-sect-content > .team-member-details > h5 {
+    font-style: normal;
+    font-weight: unset;
+    font-size: 25px;
+}
+.event-sect {
+    padding: 80px 0;
+}
+.event-sect > .event-sect-content > .timer{
+    overflow: hidden;
+    padding: 0 120px;
+}
+.event-sect > .event-sect-content > .timer > div {
+    margin: 30px 0 0 0;
+}
+.event-sect > .event-sect-content > .timer .time {
+    font-size: 50px;
+}
+.sponsors {
+    overflow: hidden;
+    padding: 50px 0;
+}
+.sponsors img{
+    max-height: 40px;
+}
+.footer-1 {
+    background-color: gainsboro;
+    text-align: left;
+    padding: 0 70px;
+}
+.footer-sect {
+    padding: 50px 0;
+    overflow: hidden;
+}
+.footer-sect-content > ul > li {
+    list-style-type: none;
+    padding-bottom: 4px;
+}
+.footer-sect-content > ul > li > a {
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-sect-content > a {
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+} 
+.footer-sect-content > form {
+    margin: 10px 0 0 0;
+}
+.footer-sect-content > form > .c-input {
+    padding: 8px;
+}
+.footer-sect-content > form > .c-button {
+    padding: 6px 12px;
+}
+.footer-2 {
+    height: auto;
+    background-color: darkgray;
+}
+.creator {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
